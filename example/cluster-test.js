@@ -1,20 +1,7 @@
-# standalone-mutex
-A standalone Mutex implementation for Nodejs which depends on Nodes inter-process communication
-
-## Installation
-```
-npm i standalone-mutex
-```
-
-## Usage
-
-### Example
-
-Below code can be found in `example` directory
-```javascript
 const cluster = require('cluster');
 const numCPUs = parseInt( process.env.THREAD_COUNT || require('os').cpus().length );
-const Mutex = require('standalone-mutex');
+const Mutex = require('../');
+// const Mutex = require('standalone-mutex');
 const log = console.log.bind( console, 'Info: ');
 
 const MID = 'asdf65498'; // A unique id for indentifying our mutex.
@@ -84,4 +71,3 @@ if (cluster.isMaster) {
   slave();
 }
 
-```
