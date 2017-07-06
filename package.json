@@ -1,6 +1,6 @@
 {
   "name": "standalone-mutex",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "A standalone Mutex implementation for Nodejs which depends on Nodes inter-process communication",
   "main": "src/mutex.js",
   "scripts": {
