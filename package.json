@@ -4,7 +4,7 @@
   "description": "A standalone Mutex implementation for Nodejs which depends on Nodes inter-process communication",
   "main": "src/mutex.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.spec.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/harish2704/node-standalone-mutex/issues"
   },
-  "homepage": "https://github.com/harish2704/node-standalone-mutex#readme"
+  "homepage": "https://github.com/harish2704/node-standalone-mutex#readme",
+  "devDependencies": {
+    "simple-mocha": "0.0.9"
+  }
 }
