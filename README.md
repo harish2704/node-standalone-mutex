@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/harish2704/node-standalone-mutex.svg?branch=master)](https://travis-ci.org/harish2704/node-standalone-mutex)
+
 # standalone-mutex
 A standalone Mutex implementation for Nodejs which depends on Nodes inter-process communication
 
